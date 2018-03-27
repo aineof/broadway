@@ -3,7 +3,10 @@ body {
     text-align: center;
 }
 .header {
-    background-image: ../images/header.jpg;
+    background: url("../images/the-flatiron-building.png");
+    background-size: cover;
+    width: 100%;
+    height: auto;
 }
 h1 {
    font-family: Helvetica, sans-serif;
@@ -36,4 +39,7 @@ h4 {
     font-family: Helvetica;
     font-size: 11px;
     color:white;
+}
+a {
+    color: white !important;
 }
